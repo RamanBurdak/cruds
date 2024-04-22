@@ -17,13 +17,13 @@ class Home extends BaseController
 		
 		$data['data'] = $this->Crud->get_records('empl');
 		$array[] = array('id'=>'10','name'=>'raman','lname'=>'ch','contact'=>'58746','dept'=>'IT');
-		
+		/* 
 		$data[] = array_push($data['data'],$array);
 		
         $json = json_encode($data);
 	
 		 echo $json;
-		die; 
+		die;  */
 		return view('show_crud', $data);
 	}
 
