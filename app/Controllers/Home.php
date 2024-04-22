@@ -21,7 +21,7 @@ class Home extends BaseController
 		$data[] = array_push($data['data'],$array);
 		
         $json = json_encode($data);
-	
+	    raman burdak
 		 echo $json;
 		die;  */
 		return view('show_crud', $data);
